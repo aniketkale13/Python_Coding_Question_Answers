@@ -1,0 +1,12 @@
+# 6. Vowel Check in String
+S = input()
+vowels = 'aeiouAEIOU'
+found = False
+for i in S:
+    if i in vowels:
+        found = True
+        break
+if found:
+    print("yes")
+else:
+    print("no")
