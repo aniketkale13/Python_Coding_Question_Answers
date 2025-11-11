@@ -1,0 +1,11 @@
+# 7. Number Range Check
+n = input().split()
+
+N = n[0]
+L = n[1]
+R = n[2]
+
+if L < N < R:
+    print("yes {} it lies between {} and {}".format(N,L,R))
+else:
+    print("{} does not lies between {} and {}".format(N,L,R))
