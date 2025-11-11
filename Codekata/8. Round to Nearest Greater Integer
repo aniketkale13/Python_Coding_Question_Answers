@@ -1,0 +1,6 @@
+8. Round to Nearest Greater Integer
+import math
+number = float(input())
+n = math.ceil(number)
+print(n)
+
