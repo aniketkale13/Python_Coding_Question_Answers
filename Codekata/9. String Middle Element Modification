@@ -1,0 +1,11 @@
+# 9. String Middle Element Modification
+s = input()
+length = len(s)
+if length % 2 == 1:
+    mid = length // 2
+    s = s[:mid] + '*' + s[mid+1:]
+else:
+    mid1 = length // 2-1
+    mid2 = length // 2
+    s = s[:mid1] + '**' + s[mid2+1:]
+print(s)
