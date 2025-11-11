@@ -1,0 +1,6 @@
+# 3. Check Divisibility by 7
+number = int(input())
+if number % 7 == 0:
+    print("Yes, {} it is divisble by 7".format(number))
+else:
+    print("Not Divisible by 7")
